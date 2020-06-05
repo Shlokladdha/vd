@@ -4,5 +4,6 @@ header nav.navbar{
 }
 
 header nav div.container{
+  width:100%;
   margin:0px 6px 0px 6px;
 }
