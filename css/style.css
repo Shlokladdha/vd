@@ -1,6 +1,5 @@
 body{
   font-family: 'Courgette', cursive;
-  color:#000000;
 }
 
 #header-nav{
@@ -14,4 +13,5 @@ body{
 
 .container{
   margin:0px;
+  color:#000000;
 }
