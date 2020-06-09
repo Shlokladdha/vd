@@ -7,6 +7,10 @@ body{
   height:66px;
 }
 
+.navbar-brand a{
+  font-size:2em;  
+}
+
 .container{
   margin:0px;
 }
