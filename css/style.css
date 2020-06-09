@@ -11,7 +11,7 @@ body{
   font-size:1.6em;  
 }
 
-.container{
-  margin:0px;
+.container-fluid{
+  padding:auto 15px;
   color:#000000;
 }
