@@ -2,6 +2,11 @@ body{
   font-family: 'Courgette', cursive;
 }
 
+*{
+  margin:0px;
+  padding:0px;
+}
+
 #header-nav{
   background-color:#83ECEC;
   height:66px;
