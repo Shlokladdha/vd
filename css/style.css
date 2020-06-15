@@ -15,8 +15,3 @@ body{
 .navbar-brand a{
   font-size:1.6em;  
 }
-
-.container-fluid{
-  padding:4px 15px;
-  color:#000000;
-}
