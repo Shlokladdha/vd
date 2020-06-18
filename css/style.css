@@ -34,3 +34,20 @@ body{
   height:100%;
   background:#023136;  
 }
+
+.sidebar header{
+  font-size:20px;
+  color:#ffffff;
+  text-align:center;
+  line height:60px;
+  opacity:0.8;
+  user-select:none;
+}
+
+
+
+
+
+
+
+
