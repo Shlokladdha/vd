@@ -27,3 +27,8 @@ body{
 .heading a:hover{
   text-decoration:none;
 }
+
+.sidebar{
+  width:20%;
+  background:#023136;  
+}
