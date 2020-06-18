@@ -44,6 +44,11 @@ body{
   user-select:none;
 }
 
+.sidebar ul a{
+  display:block;
+  
+}
+
 
 
 
