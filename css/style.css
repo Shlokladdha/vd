@@ -1,5 +1,5 @@
 body{
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif; 
 }
 
 *{
@@ -11,16 +11,18 @@ body{
 
 .sidebar{
   position:fixed;
-  width:250px;
+  width:260px;
   height:100%;
+  left:0px;
   background:#300459;  
+  transition: all 1s;
 }
 
 .sidebar header{
   font-size:26px;
   color:#ffffff;
   text-align:center;
-  line-height:70px;
+  line-height:100px;
   background:#4f0791;
   user-select:none;
 }
@@ -30,24 +32,115 @@ body{
   color:#ffffff;
   line-height:60px;
   font-size:18px;
-  padding-left:50px;
+  padding-left:25px;
   transition:0.4s;
+}
+
+.sidebar ul a.side{
+  display:inline-block;
+  width:165px;
+  color:#ffffff;
+  line-height:60px;
+  font-size:18px;
+  padding-left:25px;
+  transition:0.4s;
+}
+
+.sidebar ul li{
   border-bottom:1px solid #000000;
 }
 
-ul li:hover a{
-  padding-left:60px;
+ul li.nactive:hover a{
+  padding-left:35px;
+  text-decoration:none;
+  background:#6a458c;
+}
+
+ul li:hover button{
   text-decoration:none;
   background:#6a458c;
 }
 
 .sidebar ul a i{
+  height:20px;
+  width:20px;
   margin-right:15px;
 }
 
+aside button#closebar{
+  position:absolute;
+  left:230px;
+  top:2px;
+  width:25px;
+  height:25px;
+  font-size:1.2em;
+  background:#4f0791;
+  color:#ffffff;
+  border:none;
+  outline: none;
+}
 
+section button#openbar{
+  position:absolute;
+  top:5px;
+  width:44px;
+  height:44px;
+  font-size:1.75em;
+  color:#ffffff;
+  background:none;
+  border:none;
+  visibility:hidden;
+  outline:none;
+  z-index:10000;
+}
 
+aside button:hover{
+  background:#d5dbd7;
+}
 
+.active{
+  padding-left:10px;
+  text-decoration:none;
+  background:#6a458c;
+}
 
+#hardpoints, #analysis{
+  position:absolute;
+  width:260px;
+  top:100px;
+  left:260px;
+  visibility: hidden;
+  transition:1s;
+  z-index: 1;
+}
 
+.sidearrow{
+  float:right;
+  height:60px;
+  width:60px;
+  border:none;
+  font-size:1.5em; 
+  background:#300459;
+  outline:none;
+  color:#ffffff;
+}
 
+#hide{
+  transition:1s;
+}
+
+section#background{
+  position:absolute;
+  left:260px;
+  background-color:#ffffff;
+  width:calc(100% - 260px);
+  height:100vh;
+  z-index: 2;
+}
+
+div#buttonbar{
+  width:55px;
+  display:none;
+  height:100vh;
+  background:#000000;
+}
